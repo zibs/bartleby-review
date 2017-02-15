@@ -1,0 +1,23 @@
+.main-wrapper {
+  height: 100vh;
+  overflow:hidden;
+}
+.scrollable {
+  position: fixed;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.bartlebys {
+  background-color: lavender;
+}
+a.nav-link{
+  color: black;
+}
+a.nav-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+img.review {
+  max-height: 100px
+  position: absolute;
+}
