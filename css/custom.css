@@ -8,7 +8,8 @@
   height: 100vh;
 }
 .bartlebys {
-  background-color: lavender;
+  background-color: rgb(231, 231, 231);
+  height: 100vh;
 }
 a.nav-link{
   color: black;
