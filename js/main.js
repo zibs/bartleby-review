@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     var getPosition = function () {
       var possibleWidth = $(".bartlebys").width() - 300
-      var possibleHeight = $(".bartlebys").height() // - 300
+      var possibleHeight = $(".bartlebys").height() - 200
       console.log(possibleWidth);
       console.log(possibleHeight);
       var width = Math.floor((Math.random() * possibleWidth) + MINIMUM_HEIGHT);
