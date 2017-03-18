@@ -8,10 +8,8 @@ $(document).ready(function() {
     }
 
     var getPosition = function () {
-      var possibleWidth = $(".bartlebys").width() - 300
+      var possibleWidth = $(".bartlebys").width() - 200
       var possibleHeight = $(".bartlebys").height() - 200
-      console.log(possibleWidth);
-      console.log(possibleHeight);
       var width = Math.floor((Math.random() * possibleWidth) + MINIMUM_HEIGHT);
       var height = Math.floor((Math.random() * possibleHeight) + MINIMUM_HEIGHT);
 
@@ -19,9 +17,7 @@ $(document).ready(function() {
     }
     var height = getHeight()
     var position = getPosition()
-    console.log(position);
     $(this).css({'max-height': height + 'px', left: position.width + 'px', position: 'absolute', top: position.height + "px"})
-    // console.log(index + ": " + $( this ).attr('style'));
   });
 });
 

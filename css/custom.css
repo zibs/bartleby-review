@@ -34,7 +34,7 @@ body {
   font-size: 0.8em;
 }
 .bartlebys {
-  background-color: rgb(255, 224, 184);
+  /*background-color: rgb(255, 224, 184);*/
   height: 100vh;
   border-left: 1px solid black;
 
