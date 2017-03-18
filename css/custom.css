@@ -13,6 +13,11 @@
 body {
   font-family: UniversLTStd-Light !important;
 
+      -webkit-animation: fadein 1s;
+         -moz-animation: fadein 1s;
+          -ms-animation: fadein 1s;
+           -o-animation: fadein 1s;
+              animation: fadein 1s;
 }
 .main-wrapper {
   /*height: 100vh;*/
@@ -29,6 +34,9 @@ body {
 }
 .scrollable > h1 {
   font-family: Rasmus-Regular !important;
+}
+h1 {
+    font-family: Rasmus-Regular !important;
 }
 
 .scrollable > ul {
@@ -53,7 +61,7 @@ span.bartleby-word {
   font-family: Rasmus-Bold !important;
 
 }
-.about-section > p {
+p {
   margin-bottom: 15px;
   font-size: 0.9em;
   line-height: 18px;
@@ -68,15 +76,36 @@ a.nav-link:hover {
 img.review {
   max-height: 100px
   position: absolute;
+  opacity: 0;
 }
+
+
+.books-page {
+  padding-top: 25px;
+}
+h1.site-title > a {
+  color: black;
+  text-decoration: none;
+}
+.books-page > h1 {
+  margin-bottom: 25px;
+}
+img.books {
+  max-height: 250px;
+}
+
+.anthology > p {
+  margin: 30px;
+  font-size: 0.9em;
+  line-height: 18px;
+}
+
+
 
 @media screen and (max-width: 766px) {
   .main-wrapper {
     /*height: 100vh;*/
     overflow: visible;
-  }
-  .site-title {
-    cursor: pointer;
   }
   .scrollable {
     padding-top: 25px;
@@ -98,4 +127,33 @@ img.review {
     line-height: 22px;
     margin: 0 15px 15px 15px;
   }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

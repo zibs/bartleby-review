@@ -19,7 +19,8 @@ $(document).ready(function() {
       }
       var height = getHeight()
       var position = getPosition()
-      $(this).css({'max-height': height + 'px', left: position.width + 'px', position: 'absolute', top: position.height + "px"})
+      $(this).css({'max-height': height + 'px', left: position.width + 'px', position: 'absolute', top: position.height + "px", 'opacity': 1})
+
     });
   }
 
