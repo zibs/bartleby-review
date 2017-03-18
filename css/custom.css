@@ -12,16 +12,20 @@
 }
 body {
   font-family: UniversLTStd-Light !important;
+
 }
 .main-wrapper {
   /*height: 100vh;*/
   overflow:hidden;
 }
+.site-title {
+  cursor: pointer;
+}
 .scrollable {
-  margin-top: 25px;
+  padding-top: 25px;
   position: fixed;
   overflow-y: scroll;
-  height: 100vh;
+  max-height: 100vh;
 }
 .scrollable > h1 {
   font-family: Rasmus-Regular !important;
@@ -34,7 +38,6 @@ body {
   font-size: 0.8em;
 }
 .bartlebys {
-  /*background-color: rgb(255, 224, 184);*/
   height: 100vh;
   border-left: 1px solid black;
 
@@ -65,4 +68,34 @@ a.nav-link:hover {
 img.review {
   max-height: 100px
   position: absolute;
+}
+
+@media screen and (max-width: 766px) {
+  .main-wrapper {
+    /*height: 100vh;*/
+    overflow: visible;
+  }
+  .site-title {
+    cursor: pointer;
+  }
+  .scrollable {
+    padding-top: 25px;
+    position: fixed;
+    overflow-y: scroll;
+    max-height: 100vh;
+  }
+
+  .scrollable > ul {
+    font-size: 0.9em;
+  }
+  .bartlebys {
+    /*height: inherit;*/
+    border-left: none;
+  }
+  .about-section > p {
+    margin-bottom: 15px;
+    font-size: 1.0em;
+    line-height: 22px;
+    margin: 0 15px 15px 15px;
+  }
 }
