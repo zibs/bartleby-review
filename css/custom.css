@@ -1,9 +1,17 @@
 @font-face {
-    font-family: Univers;
-    src: url(../fonts/univers.otf);
+    font-family: UniversLTStd-Light;
+    src: url(../fonts/UniversLTStd-Light.otf);
+}
+@font-face {
+    font-family: Rasmus-Bold;
+    src: url(../fonts/Rasmus-Bold.otf);
+}
+@font-face {
+    font-family: Rasmus-Regular;
+    src: url(../fonts/Rasmus-Regular.otf);
 }
 body {
-  font-family: Univers !important;
+  font-family: UniversLTStd-Light !important;
 }
 .main-wrapper {
   /*height: 100vh;*/
@@ -16,29 +24,42 @@ body {
   height: 100vh;
 }
 .scrollable > h1 {
-
+  font-family: Rasmus-Regular !important;
 }
 
 .scrollable > ul {
   margin-bottom: 15px;
   margin-top: 15px;
+  font-family: Rasmus-Bold !important;
+  font-size: 0.8em;
 }
 .bartlebys {
-  /*background-color: rgb(231, 231, 231);*/
+  background-color: rgb(255, 224, 184);
   height: 100vh;
   border-left: 1px solid black;
+
 }
 .about-section {
   text-align: justify;
 }
-.about-section > h3 {
+.about-section > h4 {
   margin-bottom: 15px;
+  font-family: Rasmus-Regular !important;
+}
+span.bartleby-word {
+  font-family: Rasmus-Bold !important;
+
+}
+.about-section > p {
+  margin-bottom: 15px;
+  font-size: 0.9em;
+  line-height: 18px;
 }
 a.nav-link{
-  color: black;
+  /*color: black;*/
 }
 a.nav-link:hover {
-  color: black;
+  /*color: black;*/
   text-decoration: underline;
 }
 img.review {
