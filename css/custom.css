@@ -74,12 +74,15 @@ a.nav-link:hover {
   text-decoration: underline;
 }
 img.review {
-  max-height: 100px
+  max-height: 100px;
   position: absolute;
   opacity: 0;
 }
 
-
+/*.bartlebys > a {
+  display: inline-block;
+  width: 25px
+}*/
 .books-page {
   padding-top: 25px;
 }
