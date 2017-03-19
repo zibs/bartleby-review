@@ -47,8 +47,7 @@ h1 {
 }
 .bartlebys {
   height: 100vh;
-  border-left: 1px solid black;
-
+  border-left: 3px solid black;
 }
 .about-section {
   text-align: justify;
@@ -79,10 +78,6 @@ img.review {
   opacity: 0;
 }
 
-/*.bartlebys > a {
-  display: inline-block;
-  width: 25px
-}*/
 .books-page {
   padding-top: 25px;
 }
