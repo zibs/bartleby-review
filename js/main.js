@@ -8,7 +8,7 @@ $(document).ready(function() {
     // var color = COLORS[Math.floor((Math.random() * COLORS.length))]
     // $(".bartlebys").css({'border-left-color': color})
 
-    $("img").each(function(index) {
+    $("img.review").each(function(index) {
       var getHeight = function () {
         return Math.floor((Math.random() * MAX_HEIGHT) + MINIMUM_HEIGHT);
       }
@@ -25,8 +25,9 @@ $(document).ready(function() {
       var position = getPosition()
 
       $(this).css({'max-height': height + 'px', left: position.left + 'px', position: 'absolute', top: position.height + "px", opacity: 1})
-      $(".bartlebys").css({height: 100 + 'vh'})
+      $(".bartlebys").css({height: 100 + 'vh', display: 'inherit'})
       $(".scrollable").css({'max-height': 100 + 'vh'})
+      $(".books-for-sale").css({display: 'none'})
     });
   }
 
@@ -34,19 +35,33 @@ $(document).ready(function() {
     $("img.review").each(function(index) {
       $(this).css({'max-height': 150 + 'px', position: 'relative', left: 0, top: 0})
     });
-    $(".bartlebys").css({height: 'inherit'})
+    $(".bartlebys").css({height: 'inherit', display: 'inherit'})
     $(".scrollable").css({'max-height': 'inherit'})
+    $(".books-for-sale").css({display: 'none'})
+  }
+
+  var showBooks = function() {
+    $(".bartlebys").css({display: 'none'})
+    $(".books-for-sale").css({display: 'flex'})
   }
 
 
 
   $('.site-title').click(function() {
-      shuffleBartlebys()
+    shuffleBartlebys()
   })
 
-  $('#site-map').click(function() {
+  $('#site-map').click(function(e) {
+    e.preventDefault()
     organizeBartlebys()
   })
+
+  $('#books').click(function(e) {
+    e.preventDefault()
+    showBooks()
+  })
+
+
 
   $(window).on('resize', function(event){
     var windowWidth = $(window).width();

@@ -31,6 +31,7 @@ body {
   position: fixed;
   overflow-y: scroll;
   max-height: 100vh;
+  border-right: 3px solid black;
 }
 .scrollable > h1 {
   font-family: Rasmus-Regular !important;
@@ -47,7 +48,6 @@ h1 {
 }
 .bartlebys {
   height: 100vh;
-  border-left: 3px solid black;
 }
 .about-section {
   text-align: justify;
@@ -96,6 +96,10 @@ img.books {
   margin: 30px;
   font-size: 0.9em;
   line-height: 18px;
+}
+
+article.books-for-sale {
+  display: none;
 }
 
 
