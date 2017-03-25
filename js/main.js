@@ -28,21 +28,30 @@ $(document).ready(function() {
       $(".bartlebys").css({height: 100 + 'vh', display: 'inherit'})
       $(".scrollable").css({'max-height': 100 + 'vh'})
       $(".books-for-sale").css({display: 'none'})
+      $(".links").css({display: 'none'})
     });
   }
 
   var organizeBartlebys = function() {
     $("img.review").each(function(index) {
-      $(this).css({'max-height': 150 + 'px', position: 'relative', left: 0, top: 0})
+      $(this).css({'max-height': 250 + 'px', position: 'relative', left: 0, top: 0})
     });
     $(".bartlebys").css({height: 'inherit', display: 'inherit'})
     $(".scrollable").css({'max-height': 'inherit'})
     $(".books-for-sale").css({display: 'none'})
+    $(".links").css({display: 'none'})
   }
 
   var showBooks = function() {
     $(".bartlebys").css({display: 'none'})
+    $(".links").css({display: 'none'})
     $(".books-for-sale").css({display: 'flex'})
+  }
+
+  var showLinks = function() {
+    $(".bartlebys").css({display: 'none'})
+    $(".books-for-sale").css({display: 'none'})
+    $(".links").css({display: 'flex'})
   }
 
 
@@ -59,6 +68,11 @@ $(document).ready(function() {
   $('#books').click(function(e) {
     e.preventDefault()
     showBooks()
+  })
+
+  $('#links').click(function(e) {
+    e.preventDefault()
+    showLinks()
   })
 
 

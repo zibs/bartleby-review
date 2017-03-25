@@ -102,6 +102,19 @@ article.books-for-sale {
   display: none;
 }
 
+article.links {
+  display: none;
+  margin-top: 15%;
+}
+
+article.links > p {
+  color: black;
+  margin-bottom: 0.1em;
+}
+
+article.links > p > a{
+  color: gray;
+}
 
 
 @media screen and (max-width: 766px) {
