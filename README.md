@@ -1,4 +1,4 @@
-#BARTLEBY REVIEW (2012-2017)
+# BARTLEBY REVIEW (2012-2017)
 
 ##### is a free and occasional leaflet of criticism and other writing published in Vancouver, Canada.
 
