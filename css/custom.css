@@ -50,7 +50,7 @@ h1 {
   height: 100vh;
 }
 .about-section {
-  text-align: justify;
+  text-align: left;
 }
 .about-section > h4 {
   margin-bottom: 15px;
@@ -116,6 +116,19 @@ article.links > p > a{
   color: gray;
 }
 
+section.footer {
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+
+section.footer > p {
+  margin-bottom: 1px;
+  font-size: 0.7em;
+  line-height: 18px;
+}
+
+p.buy {
+}
 
 @media screen and (max-width: 766px) {
   .main-wrapper {
