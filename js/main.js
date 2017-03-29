@@ -80,7 +80,7 @@ $(document).ready(function() {
   $(window).on('resize', function(event){
     var windowWidth = $(window).width();
     if (windowWidth < 568) {
-      organizeBartlebys()
+      // organizeBartlebys()
     }
   });
 
