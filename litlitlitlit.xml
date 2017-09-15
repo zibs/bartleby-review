@@ -7,7 +7,7 @@
             <link>http://lit-lit-lit-lit.tumblr.com</link>
             <language>en-ca</language>
             <copyright>Creative Commons</copyright>
-            <lastBuildDate>Mon, 5 Jun 2017 21:33:00 -0500</lastBuildDate>
+            <lastBuildDate>Fri, 15 Sept 2017 03:33:00 -0500</lastBuildDate>
             <pubDate>Wed, 19 Aug 2015 19:30:00 -0500</pubDate>
             <webMaster>elizibin@gmail.com</webMaster>
             <itunes:author>Produced by Emma Metcalfe Hurst and Steffanie Ling</itunes:author>
@@ -485,6 +485,44 @@ http://221a.ca/rereading-room
               Special thanks to the City of Nanaimo, Art Lab and Nanaimo Art Gallery for supporting this event.
               </itunes:summary>
               <itunes:duration>01:35:32</itunes:duration>
+              <itunes:keywords>Literature, Arts, Experimental, Performativity, Writing, Reading, LITLITLITLIT</itunes:keywords>
+          </item>
+<!-- *******************************************************-->
+<!-- *******************************************************-->
+                    <!-- LIT LIT LIT LIT III -->
+<!-- *******************************************************-->
+<!-- *******************************************************-->
+
+          <item>
+              <title>LIT LIT LIT LIT IX took place on Saturday, July 22 2017 as part of *Sky Island. New readings were written and given by Bára Hladíková, listen chen, Nathan Crompton and Brent Lin, followed by a conversation with LIT LIT LIT LIT co-organizer Steffanie Ling and Jannie Leung.</title>
+              <link>https://s3-us-west-2.amazonaws.com/litlitlitlit/LITSKYISLAND.mp3</link>
+              <guid>https://s3-us-west-2.amazonaws.com/litlitlitlit/LITSKYISLAND.mp3</guid>
+              <description>
+                00:00:15- INTRO by Kara Hansen, curator of Sky Island
+00:06:54 - Steffanie Ling reads “Be a Goddamn Professional”
+00:12:39 - BÁRA HLADÍKOVÁ is a writer and musician who has been seen eavesdropping on local bystanders. She recently performed at Deep Blue with Silky Boys, collaborated on Behind the Curtain at Dynamo Arts Association, and hydrated her tropical plants. 
+00:22:16 - listen chen is a daoist and a bat-enthusiast who lives and writes on unceded coast salish territories. 
+00:31:46 - BRENT LIN has been a business consultant and television reporter. These days he studies media theory at McGill. His writings on digital culture have been published in attractivoquenobello and Real Life. 
+00:44:58 - NATHAN CROMPTON is a writer based in Vancouver, where he works as a housing organizer and edits The Mainlander. He is currently completing his PhD in French history at Simon Fraser University and has contributed art criticism to Fillip, October and the Bartleby Review. 
+00:53:44 - Conversation between JANNIE LEUNG and STEFFANIE LING
+JANNIE LEUNG 梁泳詩 is a community organizer fighting for social justice and people power with the Chinatown Action Group. 
+STEFFANIE LING is a producer of criticism, pamphlets, stories, essays, exhibitions, reviews, bluntness, anecdotes, shoutouts, wrestling, storylines, proposals, applications, jokes, readings, minimal poems, poems, dinner, compliments, and diatribes. She lives in Vancouver frequenting grocery stores, the Cinematheque and other air conditioned spaces.
+01:20:19 - QandA
+
+</description>
+              <enclosure url="https://s3-us-west-2.amazonaws.com/litlitlitlit/LITSKYISLAND.mp3" length="121874030" type="audio/mp3" />
+              <category>Podcasts</category>
+              <pubDate>Fri, 15 Sept 2017 03:33:04 -0500</pubDate>
+              <itunes:author>LIT LIT LIT LIT</itunes:author>
+              <itunes:explicit>No</itunes:explicit>
+              <itunes:subtitle>
+              </itunes:subtitle>
+              <itunes:summary>
+                This edition of LIT LIT LIT LIT is in conjunction with the launch of Chinatown and The History of Anti-Asian Racism, an essay/pamphlet co-authored by Nathan Crompton and Jannie Leung, translated from English to Traditional Chinese by Brent Lin. Published by N.O.P.E.
+                *SKY ISLAND is an art exhibition and event series occurring on the rooftop parkade at 211 East Georgia st in Vancouver, BC. Throughout the month of July emerging artists, dancers, musicians and writers are responding to the site and the urban context that surrounds it. The site of Sky Island is many spaces at once. As a passageway, its grounds can go unnoticed. Situated within Chinatown, cars pile on layers of asphalt inside a neighborhood community in constant odds with developments and subsequent displacement. Snowy summits and lush environment frame the city’s glossy condominiums, an endless reflection focused on lifestyle as opposed to affordable living. Curated by Kara Hansen  
+                “天島”項目七月將會在221東喬治亞街的露臺舉辦一系列展覽和活動。為期一個月，新興藝術家，舞者，音樂人和作家會對近鄰城市化的現象做以回應。“天島”既是通道，又代表華埠車水馬龍卻被迅速拆遷与開發的現狀。雪頂，雨林，瓊樓玉宇日漸交相輝映，柴米油鹽也水漲船高。
+              </itunes:summary>
+              <itunes:duration>01:24:38</itunes:duration>
               <itunes:keywords>Literature, Arts, Experimental, Performativity, Writing, Reading, LITLITLITLIT</itunes:keywords>
           </item>
         </channel>
