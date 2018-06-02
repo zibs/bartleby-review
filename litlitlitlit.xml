@@ -7,7 +7,7 @@
             <link>http://lit-lit-lit-lit.tumblr.com</link>
             <language>en-ca</language>
             <copyright>Creative Commons</copyright>
-            <lastBuildDate>Sun, 17 Sep 2017 03:33:00 -0500</lastBuildDate>
+            <lastBuildDate>Sat, 02 Jun 2018 03:33:00 -0500</lastBuildDate>
             <pubDate>Wed, 19 Aug 2015 19:30:00 -0500</pubDate>
             <webMaster>elizibin@gmail.com</webMaster>
             <itunes:author>Produced by Emma Metcalfe Hurst and Steffanie Ling</itunes:author>
@@ -524,6 +524,43 @@ STEFFANIE LING is a producer of criticism, pamphlets, stories, essays, exhibitio
                 “天島”項目七月將會在221東喬治亞街的露臺舉辦一系列展覽和活動。為期一個月，新興藝術家，舞者，音樂人和作家會對近鄰城市化的現象做以回應。“天島”既是通道，又代表華埠車水馬龍卻被迅速拆遷与開發的現狀。雪頂，雨林，瓊樓玉宇日漸交相輝映，柴米油鹽也水漲船高。
               </itunes:summary>
               <itunes:duration>01:24:38</itunes:duration>
+              <itunes:keywords>Literature, Arts, Experimental, Performativity, Writing, Reading, LITLITLITLIT</itunes:keywords>
+          </item>
+<!-- *******************************************************-->
+<!-- *******************************************************-->
+                    <!-- LIT LIT LIT LIT X-->
+<!-- *******************************************************-->
+<!-- *******************************************************-->
+
+          <item>
+              <title>LIT LIT LIT LIT X </title>
+              <link>https://s3-us-west-2.amazonaws.com/litlitlitlit/LITLITLITLIT_X.mp3</link>
+              <guid>https://s3-us-west-2.amazonaws.com/litlitlitlit/LITLITLITLIT_X.mp3</guid>
+              <description>
+               LIT LIT LIT LIT X took place at Artspeak on February 18, 2018 with readings by Josh Gabert-Doyon, Ingrid Olauson, Emma Sise, and Ben Stephenson. Posters by Lyndsay Pomerantz adorned the walls in response to Olauson’s reading. 
+~ 
+
+00:05:23 - Josh Gabert-Doyon reads about psychics and Vancouver real estate speculation in “Psychic Properties.” His reading is accompanied by a series of photographs he captured which map  fortune telling businesses throughout the lower mainland. 
+
+00:24:02 - Ingrid Olauson reads from her chapbook “Pragmatics” and an excerpt from her untitled novel in progress. “Pragmatics” was written for Sleepover, a project facilitated by Michael Lachmann and Lyndsay Pomerantz in Berlin in Summer 2017. Posters responding to Olauson’s text by Lyndsay Pomerantz were installed on the gallery walls during the reading. 
+ 
+00:44:19 - Emma Sise reads a Borgesian experiment with no nouns, only verbs, adjectives and adverbial suffixes followed by a series of poems while choosing to stand instead of taking a seat. 
+
+01:03:20 - Ben Stephenson reads two things–one short, one long. Firstly, a short fiction/memoir written in the third person called “Four Men” which is part of series recollecting Stephenson’s near-death experiences. Secondly, the opening chapter of his MFA thesis novel, three years in the making. 
+
+</description>
+              <enclosure url="https://s3-us-west-2.amazonaws.com/litlitlitlit/LITLITLITLIT_X.mp3" length="139492987" type="audio/mp3" />
+              <category>Podcasts</category>
+              <pubDate>Sat, 02 Jun 2018 03:33:04 -0500</pubDate>
+              <itunes:author>LIT LIT LIT LIT</itunes:author>
+              <itunes:explicit>No</itunes:explicit>
+              <itunes:subtitle>
+              </itunes:subtitle>
+              <itunes:summary>
+                LIT LIT LIT LIT X - Josh Gabert-Doyon, Ingrid Olauson, Emma Sise, Ben Stephenson
+                 LIT LIT LIT LIT X took place at Artspeak on February 18, 2018 with readings by Josh Gabert-Doyon, Ingrid Olauson, Emma Sise, and Ben Stephenson. Posters by Lyndsay Pomerantz adorned the walls in response to Olauson’s reading. 
+              </itunes:summary>
+              <itunes:duration>01:36:52</itunes:duration>
               <itunes:keywords>Literature, Arts, Experimental, Performativity, Writing, Reading, LITLITLITLIT</itunes:keywords>
           </item>
         </channel>
